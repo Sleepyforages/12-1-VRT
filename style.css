@@ -1,0 +1,555 @@
+@font-face {
+    font-family: 'black';
+    src: url('fonts/SourceSansPro-Black.ttf') format('truetype');
+    /* Safari, Android, iOS */
+}
+
+@font-face {
+    font-family: 'bold';
+    src: url('fonts/SourceSansPro-Bold.ttf') format('truetype');
+    /* Safari, Android, iOS */
+}
+
+@font-face {
+    font-family: 'regular';
+    src: url('fonts/SourceSansPro-Regular.ttf') format('truetype');
+}
+
+html {
+    max-width: 1920px;
+    font-size: 16px;
+}
+
+body {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.arrow {
+    margin-left: 1vw;
+}
+
+a {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+
+h3 {
+    font-family: "black";
+    font-size: 2vw;
+    margin: 0;
+}
+
+p {
+    font-family: "regular";
+    font-size: 0.9vw;
+    margin-top: 2vw;
+}
+
+.white {
+    color: white;
+}
+
+.black {
+    color: black;
+}
+
+
+/* top area of the page, including header blocks, text and links */
+
+.header {
+    display: flex;
+    width: 100%;
+    background-color: #060606;
+    opacity: 1;
+    height: 37.3vw;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+
+.left {
+    width: 55%;
+    height: 100%;
+}
+
+.right {
+    width: 45%;
+    height: 100%;
+    background-color: #69779B;
+}
+
+.left-container {
+    height: 19.5vw;
+    width: 28.65vw;
+    margin-top: 9.9vw;
+    margin-left: 6vw;
+    display: flex;
+    align-items: center;
+}
+
+h1 {
+    font-family: "black";
+    font-size: 5.5vw;
+    line-height: 5.5vw;
+    margin: 0;
+}
+
+.left .meniu {
+    margin-top: 2.8vw;
+    margin-left: 6vw;
+    margin-bottom: auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+
+.left .meniu a {
+    text-decoration: none;
+    color: #505050;
+    font-family: "bold";
+    padding-right: 0.83vw;
+    font-size: 1.1vw;
+}
+
+.left .meniu a:hover {
+    color: #F5A623;
+}
+
+.right .meniu {
+    margin-top: 31.83vw;
+    margin-left: 30.6vw;
+}
+
+.right .meniu a {
+    text-decoration: none;
+    color: #FFFFFF;
+    font-family: "bold";
+    padding-right: 0.83vw;
+    font-size: 1.1vw;
+}
+
+
+/* content items */
+
+.container {
+    width: 88.5%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.container h2 {
+    font-family: "black";
+    font-size: 3.5vw;
+}
+
+
+/* item-1 */
+
+.item-1 {
+    margin-top: 8.75vw;
+    width: 100%;
+    height: 29.3vw;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+
+.item-1 .left-card {
+    width: 48%;
+    background-color: teal;
+    height: 100%;
+}
+
+.item-1 .right-card .text-create {
+    margin-top: 8.3vw;
+    margin-left: 3vw;
+    height: 9.4vw;
+}
+
+.item-1 .right-card a {
+    text-decoration: none;
+    color: #F5A623;
+    font-family: "bold";
+    font-size: 1.1vw;
+    margin-left: 3vw;
+}
+
+
+/* item-2 */
+
+.item-2 {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    margin-top: 7.2vw;
+}
+
+.item-2 .subheader h2 {
+    float: left;
+    margin: 0;
+}
+
+.item-2 .subcontainer {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    height: 66.3vw;
+    background-color: grey;
+}
+
+.item-2 .cell2,
+.item-2 .cell {
+    width: 50%;
+    height: 50%;
+}
+
+.item-2 .cell2 {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: center;
+    background-color: #69779B;
+    color: white;
+}
+
+.item-2 .text-whatch {
+    height: 3.5vw;
+}
+
+.item-2 .text-whatch h3 {
+    margin: 0;
+}
+
+.item-2 .cell2 a {
+    text-decoration: none;
+    color: white;
+    font-family: "bold";
+    font-size: 1.1vw;
+    margin-top: 0.82vw;
+}
+
+
+/* item-3 */
+
+.item-3 {
+    margin-top: 6.5vw;
+}
+
+.item-3 .subheader h2 {
+    margin: 0;
+}
+
+.item-3 .left-card,
+.item-3 .right-card {
+    width: 50%;
+    height: 18.55vw;
+}
+
+.item-3 .subcontainer {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    margin-top: 1vw;
+}
+
+.item-3 .left-card .textbox {
+    margin-top: 4vw;
+    margin-left: 7.4vw;
+    width: 26vw;
+}
+
+.item-3 p {
+    color: #06060673;
+}
+
+.item-3 .right-card {
+    background-color: teal;
+}
+
+
+/* item-4 */
+
+.item-4 {
+    margin-top: 8vw;
+}
+
+.item-4 .left-card,
+.item-4 .right-card {
+    width: 50%;
+    height: 34.55vw;
+    background-color: lightgray;
+}
+
+.item-4 .subcontainer {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+
+.item-4 .left-card .textbox {
+    margin-top: 30%;
+    margin-left: 7.4vw;
+    width: 26vw;
+}
+
+.item-4 p {
+    color: white;
+}
+
+.item-4 h3 {
+    color: white;
+}
+
+
+/* item-5 */
+
+.item-5 {
+    margin-top: 8vw;
+}
+
+.item-5 .left-card,
+.item-5 .right-card {
+    width: 50%;
+    height: 18.55vw;
+}
+
+.item-5 .right-card {
+    background-color: lightgray;
+}
+
+.item-5 .subcontainer {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+
+.item-5 .left-card .textbox {
+    margin-top: 4vw;
+    margin-left: 7.4vw;
+    width: 26vw;
+}
+
+.item-5 p {
+    color: black;
+}
+
+.item-5 h3 {
+    color: black;
+}
+
+
+/* footer */
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    width: 100%;
+    height: 18vw;
+    background-color: black;
+    margin-top: 4vw;
+    color: white;
+}
+
+.footer .info {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    width: 88.5%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.footer .social {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+
+[class*="infobox"] {
+    margin-top: 2vw;
+}
+
+.infobox1 {
+    width: 16vw;
+    line-height: 3vw;
+}
+
+.infobox2 {
+    width: 21vw;
+    font-size: 1.5vw;
+    margin-left: 10vw;
+    font-family: "bold";
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+}
+
+.infobox3 {
+    width: 16vw;
+    font-size: 1.5vw;
+    margin-left: 10vw;
+    font-family: "bold";
+}
+
+
+/* input */
+
+.inputs {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+
+input {
+    font-family: "regular";
+    display: block;
+    width: 70%;
+    border: 0;
+    border-bottom: 1px solid #808080;
+    padding-bottom: 0.3333rem;
+    padding-left: 0;
+    margin-top: 2vw;
+    background-color: black;
+}
+
+input:focus {
+    border: 0;
+    outline: none;
+    border-bottom: 1px solid #808080;
+}
+
+ ::-webkit-input-placeholder {
+    font-family: "regular";
+    color: #A9A9A9;
+}
+
+.btn {
+    border: none;
+    background: none;
+    width: 7vw;
+    color: #FFFFFF;
+    font-family: "regular";
+    margin-top: 2vw;
+    margin-left: 1vw;
+    display: inline;
+}
+
+.btn:hover {
+    cursor: pointer;
+    padding: 0;
+    border: none;
+    background: none;
+}
+
+
+/* responsive */
+
+@media screen and (max-width:1250px) {
+    .left .meniu a,
+    .right .meniu a {
+        font-size: 1.5vw;
+    }
+    .left .meniu {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+    }
+    .item-1 .right-card a {
+        font-size: 1.5vw;
+    }
+    .item-2 .text-whatch h3 {
+        font-size: 2.5vw;
+    }
+    .item-2 .cell2 a {
+        font-size: 1.5vw;
+    }
+    p {
+        font-size: 1.5vw;
+    }
+    h3 {
+        font-size: 2.5vw;
+    }
+    .item-3 .left-card .textbox {
+        margin-top: 3vw;
+        margin-left: 7.4vw;
+        width: 35vw;
+    }
+    .item-4 .left-card .textbox {
+        margin-top: 20%;
+        margin-left: 7.4vw;
+        width: 35vw;
+    }
+    .item-5 .left-card .textbox {
+        margin-top: 3vw;
+        margin-left: 7.4vw;
+        width: 35vw;
+    }
+}
+
+@media screen and (max-width:600px) {
+    .header {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+    .left,
+    .right {
+        width: 100%;
+        height: 45vw;
+    }
+    .left .meniu a,
+    .right .meniu a {
+        font-size: 2.5vw;
+    }
+    .right .meniu {
+        margin-top: 35%;
+        margin-left: 75%;
+    }
+    .left .meniu {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+    }
+    .item-1 .right-card a {
+        font-size: 2.1vw;
+    }
+    .item-2 .text-whatch h3 {
+        font-size: 3vw;
+    }
+    .item-2 .cell2 a {
+        font-size: 2.1vw;
+    }
+    p {
+        font-size: 1.6vw;
+    }
+    h3 {
+        font-size: 3vw;
+        margin: 0;
+    }
+    .item-3 .left-card .textbox {
+        margin-top: 2vw;
+        margin-left: 7.4vw;
+        width: 35vw;
+    }
+    .item-4 .left-card .textbox {
+        margin-top: 15%;
+        margin-left: 7.4vw;
+        width: 35vw;
+    }
+    .item-5 .left-card .textbox {
+        margin-top: 2vw;
+        margin-left: 7.4vw;
+        width: 35vw;
+    }
+}
